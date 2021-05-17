@@ -99,8 +99,6 @@
 .about__text h2 {
 	margin: 0 auto;
 	font-size: 45px;
-
-	
 }
 
 .responsive {
@@ -328,15 +326,15 @@
 		padding: 40px 60px;
 	}
 
-	.project h2{
-		text-align :center;
+	.project h2 {
+		text-align: center;
 	}
 	.home {
 		overflow-x: hidden;
 	}
 
-	.home__text{
-		font-size : 35px;
+	.home__text {
+		font-size: 35px;
 	}
 	.hamburger {
 		display: block;
@@ -376,8 +374,6 @@
 	}
 
 	.hamburger__menu.active {
-
-	
 		display: flex;
 		flex-direction: column;
 
@@ -424,7 +420,7 @@
 		width: 100vw;
 		padding: 0 20px;
 		text-align: start;
-		
+
 		font-size: 14px;
 	}
 
@@ -449,7 +445,9 @@
 	.home__modify a {
 		font-size: 20px;
 	}
-
+.home__modify:hover a {
+	border-bottom: 2px solid rgb(185, 236, 107);
+}
 	.about__text h2 {
 		font-size: 25px;
 	}
@@ -458,7 +456,7 @@
 		font-size: 17px;
 	}
 	.skills_container {
-		margin-top : 10px;
+		margin-top: 10px;
 	}
 
 	.skills_container h2 {
@@ -506,9 +504,9 @@
 		font-size: 25px;
 		margin-top: 15vh;
 		margin-bottom: 25px;
-		padding-top:0px;
-		height : 0vh;
-		margin-bottom : 45px;
+		padding-top: 0px;
+		height: 0vh;
+		margin-bottom: 45px;
 	}
 
 	.section-info {
@@ -531,52 +529,50 @@
 		width: 100%;
 		margin-left: 0;
 		height: 27vh;
-		margin-top:25px;
+		margin-top: 25px;
 	}
 
 	.responsive {
 		display: flex;
 		cursor: pointer;
 	}
-	.project{
-		margin-top : 0px;
+	.project {
+		margin-top: 59px;
 	}
 
-	.project__topic{
-		margin-top : 7vh;
+	.project__topic {
+		margin-top: 7vh;
 	}
 }
 
-@media only screen and (min-width : 768px) and (max-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
 	.about__text {
 		font-size: 40px;
-		
 	}
 
-	.skills_container{
-		padding-top:0px;
+	.skills_container {
+		padding-top: 0px;
 	}
 
-	.about__text p{
-		font-size : 24px;
-		
+	.about__text p {
+		font-size: 24px;
 	}
-	.ii{
-		display : flex;
-		justify-content : center;
+	.ii {
+		display: flex;
+		justify-content: center;
 	}
 
 	.skills_images {
-		width : 80%;
+		width: 80%;
 	}
 
-	.home__text{
-		font-size : 37px;
-		left : 20%;
+	.home__text {
+		font-size: 37px;
+		left: 20%;
 	}
-	.ii img{
-		width : 80%;
-	 height : 250px;
+	.ii img {
+		width: 80%;
+		height: 250px;
 	}
 }
 /*display: flex;
